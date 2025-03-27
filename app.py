@@ -88,7 +88,7 @@ if option == 'Pesquisar':
         elif estado == 'Pernambuco':
             img_estado = Image.open("img/pernambuco.png")    
         
-        st.image(img_estado, caption="", use_container_width=False)
+        st.image(img_estado, caption="", use_container_width=True)
 
     if st.button("INICIAR"):
         destino = "Pontos Turisticos"

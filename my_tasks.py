@@ -19,7 +19,7 @@ def criar_task_recomendar(guia_turistico):
              "Critérios de classificação: beleza natural e a infraestrutura turística entre os turistas."             
              "Faça sempre em Português do Brasil (pt-br)."
              "Sempre incluir comentários de cada local recomendando os melhores meses para visitar."
-            "Resposta na forma de tabela com as colunas: Ponto Turístico, Classificação, Melhores meses para visitar, Temperatura média, Média de gasto por dia"
+            #"Sempre seguir o template da saída esperada na resposta na forma de tabela com as colunas: Ponto Turístico, Classificação, Melhores meses para visitar, Temperatura média, Média de gasto por dia"
              "Um item por linha.") ,
         expected_output=
              #"Lista dos lugares encontrados com comentários a respeito de cada local." # Não incluir a url do link da página do site se variavel checar_url for igual a 'Não'."
@@ -30,8 +30,8 @@ def criar_task_recomendar(guia_turistico):
 #2 - Melhores meses para visitar;
 #3 - Temperatura média nos melhores meses para visitar;
 #4 - Média de gasto por dia, considerando um almoço e passeios;
-Exemplo de saida esperada:
-- Ponto Turístico: Parque Nacional da Tijuca
+Exemplo de saida esperada de 1 a 3:
+- Ponto Turístico 1: Parque Nacional da Tijuca
 - Classificação: 9/10    
 - Melhores meses para visitar:  Inverno e primavera  
 - Temperatura média:  23°C  
