@@ -7,7 +7,7 @@ class MyLLM():
     GPT_o1    = LLM(model='01-preview')
     GEMMA2_9B    = LLM(model='groq/gemma2-9b-it')
     LLAMA3_70B    = LLM(model='llama3-70b-8192')
-    GROQ_LLAMA    = LLM(model='groq/llama-3.2-3b-preview')
+    GROQ_QWEN    = LLM(model='groq/qwen-qwq-32b')
     GROQ_MIXTRAL    = LLM(model='groq/mixtral-8x7b-32768')
     GROQ_LLAMA2    = LLM(model='groq/llama-3.2-11b-vision-preview')
     GROQ_DEEPSEEK    = LLM(model='groq/deepseek-r1-distill-qwen-32b')
