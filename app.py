@@ -54,7 +54,7 @@ if option == 'Pesquisar':
     st.markdown(html_page_crewai, unsafe_allow_html=True)
     
 
-    llm = MyLLM.LLAMA
+    llm = 'groq/llama-4-scout-17b-16e-instruct' # MyLLM.LLAMA
     guia_turistico = criar_agente_guia_turistico(llm)  # Passando o provider para o agente
     recomendar = criar_task_recomendar(guia_turistico)  # Passando o provider para a task
     
