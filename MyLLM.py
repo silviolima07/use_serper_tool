@@ -7,4 +7,4 @@ class MyLLM():
     GPT_o1    = LLM(model='01-preview')
     GEMMA2_9B    = LLM(model='groq/gemma2-9b-it')
     LLAMA3_70B    = LLM(model='llama3-70b-8192')
-    GROQ_LLAMA   = LLM(model='groq/llama-3.3-70b-versatile')
+    LLAMA   = LLM(model='groq/llama-3.3-70b-versatile')
