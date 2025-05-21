@@ -10,4 +10,4 @@ class MyLLM():
     QWEN    = LLM(model='groq/qwen-qwq-32b')
     GROQ_MIXTRAL    = LLM(model='groq/mixtral-8x7b-32768')
     GROQ_LLAMA2    = LLM(model='groq/llama-3.2-11b-vision-preview')
-    GROQ_DEEPSEEK    = LLM(model='groq/deepseek-r1-distill-llama-70b')
+    GROQ_DEEPSEEK  = LLM(model='groq/deepseek-r1-distill-llama-70b')
